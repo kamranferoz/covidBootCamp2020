@@ -32,4 +32,4 @@ jobs:
       run: npm install -g surge
       
     - name: Deploy code using surge
-      run: surge ./ kfbootcamp2020.surge.sh --token $ {{ secrets.BOOTCAMP2020_KEY }}
+      run: surge ./ kfbootcamp2020.surge.sh --token ${{ secrets.BOOTCAMP2020_KEY }}
